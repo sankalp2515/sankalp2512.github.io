@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <div class="overlay overlay-lg">
+        <img src="./img/shapes/square.png" class="shape square" alt="" />
+        <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+        <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+        <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+        <!-- <img src="./img/shapes/letters.png" class="letters" alt="" /> -->
+        <img src="./img/shapes/points1.png" class="points points1" alt="" />
+      </div>
+
+      <nav>
+        <div class="container">
+          <div class="logo">
+            <img src="" alt="" />
+          </div>
+
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#header">Home</a>
+              </li>
+
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+        
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#hireme" class="active">Hire me</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="container grid-2">
+          <div class="column-1">
+            <h1 class="header-title">Harshal Tingre</h1>
+            <p class="text">
+              Greetings! I'm Harshal Tingre , a master's graduate with a passion for innovation in the realm of engineering.
+              Welcome to my portfolio, a showcase of my journey through the world of mechanical systems and design.
+              Let's explore the intersection of theory and practicality together.
+            </p>
+            <a id="downloadCVBtn" target="_blank" class="btn1">Download CV</a>
+          </div>
+
+          <div class="column-2 image">
+            <img src="./img/shapes/points2.png" class="points points2" alt="" />
+            <img src="./img/person.jpg" class="img-element z-index" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+<div>
+  <section class="portfolio section" id="portfolio">
+    <div class="background-bg">
+      <div class="overlay overlay-sm">
+        <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+        <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+        <img src="./img/shapes/square.png" class="shape square" alt="" />
+        <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+        <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+        <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+        <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="My works">Portfolio</h3>
+      </div>
+
+      <div class="section-body">
+        <div class="filter">
+          <button class="filter-btn active" data-filter="*">All</button>
+          <button class="filter-btn" data-filter=".ui">UI/UX</button>
+          <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+          <button class="filter-btn" data-filter=".appdev">
+            Mobile App
+          </button>
+          <button class="filter-btn" data-filter=".logo-design">
+            Logo Design
+          </button>
+        </div>
+
+        <div class="grid">
+          <div class="grid-item cfd">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port1.jpg" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Logo Design</h3>
+                  <!-- <h5>View</h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item webdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port2.png" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Web Development</h3>
+                  <!-- <h5>View Demo</h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui webdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port3.png" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Web Design</h3>
+                  <h5>View Demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item ui">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port4.png" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>UI / UX Design</h3>
+                  <h5>View Demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item logo-design">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port5.jpg" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Logo Design</h3>
+                  <h5>View Demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item appdev">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port6.jpg" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>App Development</h3>
+                  <!-- <h5>View Demo</h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item logo-design">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port7.jpg" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Logo Design</h3>
+                  <h5>View Demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item appdev ui">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port8.png" alt="" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>App Development</h3>
+                  <h5>View Demo</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item finite-elements-engineering">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port9.png" alt="Finite Elements in Engineering" />
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Finite Elements in Engineering</h3>
+                  <!-- <h5>View</h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item mechanical-engineering">
+            <div class="gallery-image">
+              <img src="./img/portfolio/port9.png" alt="Mechanical Engineering Project">
+              <div class="img-overlay">
+                <div class="plus"></div>
+                <div class="img-description">
+                  <h3>Controller into Prototype Vehicle</h3>
+                  <!-- <h5>View</h5> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more-folio">
+          <a href="#" class="btn">More Folio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h3 class="title" data-title="Who Am I">About me</h3>
+      </div>
+  
+      <div class="section-body grid-2">
+        <div class="column-1">
+          <h3 class="title-sm">Hello, I'm Harshal Tingre</h3>
+          <p class="text">
+            I have completed my Master's degree in Mechanical Engineering from Arizona State University, Tempe, Arizona, with a GPA of 3.35/4.0. I also hold a Bachelor's degree in Mechanical Engineering from Savitribai Phule Pune University, Pune, India, where I graduated with a GPA of 9.04/10.0. My academic journey has equipped me with a strong foundation in engineering principles and hands-on experience in various technical domains.
+          </p>
+          <div class="skills">
+            <div class="skill software">
+              <h3 class="skill-title">Software</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="90%"></div>
+              </div>
+            </div>
+            <div class="skill programming">
+              <h3 class="skill-title">Programming</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="80%"></div>
+              </div>
+            </div>
+            <div class="skill equipment">
+              <h3 class="skill-title">Technical Equipment</h3>
+              <div class="skill-bar">
+                <div class="skill-progress" data-progress="75%"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn1" id="read-more-btn">Read more</a>
+        </div>
+  
+        <div class="column-2 image">
+          <img src="./img/shapes/points4.png" class="points" alt="" />
+          <img src="./img/about.png" class="z-index" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="read-more-content" class="more-content section">
+    <div class="container">
+      <h3 class="title">More About Me</h3>
+      <p class="text">
+        I have a solid background in both the theoretical and practical aspects of mechanical engineering. During my time at Arizona State University, I worked on several research projects and gained hands-on experience with advanced mechanical systems. My coursework included subjects such as thermodynamics, fluid mechanics, and material science, which provided me with a deep understanding of mechanical principles.
+      </p>
+      <p class="text">
+        Professionally, I have interned at several companies where I applied my knowledge to real-world problems. For example, during my internship at XYZ Corporation, I worked on a project to improve the efficiency of HVAC systems, which resulted in a 15% reduction in energy consumption. I also have experience with CAD software such as AutoCAD and SolidWorks, which I used to design mechanical components for various projects.
+      </p>
+      <p class="text">
+        In addition to my technical skills, I am also proficient in programming languages such as Python, MATLAB, and C++. I have used these skills to develop simulations and perform data analysis for my projects. I am particularly interested in the field of robotics and automation, and I am constantly looking for opportunities to expand my knowledge and skills in this area.
+      </p>
+      <p class="text">
+        I am passionate about mechanical engineering and am always eager to take on new challenges. I believe that my strong educational background, combined with my hands-on experience and technical skills, make me a valuable asset to any team. I look forward to contributing to innovative projects and continuing to grow as a professional in this field.
+      </p>
+      <a href="#" class="btn1" id="close-btn">Close</a>
+    </div>
+  </section>
+  
+  
+
+  
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-info">
+          <h3 class="title">Get in touch</h3>
+          <p class="text" id="contact-text">
+            <!-- Placeholder text for contact section -->
+            Feel free to reach out to me via email or phone for any inquiries or project discussions.
+          </p>
+          <div class="information-wrap">
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <p class="info-text" id="contact-address">
+                <!-- Placeholder text for address -->
+                Arizona State University, Tempe, Arizona
+              </p>
+            </div>
+  
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <p class="info-text" id="contact-email">
+                <!-- Placeholder text for email -->
+                htingre@asu.edu
+              </p>
+            </div>
+  
+            <div class="information">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <p class="info-text" id="contact-phone">
+                <!-- Placeholder text for phone -->
+                +1-602 738 3155
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="contact-form">
+          <h3 class="title">Contact me</h3>
+          <form id="contact-form">
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="First Name" required />
+              <input type="text" class="contact-input" placeholder="Last Name" required />
+            </div>
+  
+            <div class="row">
+              <input type="text" class="contact-input" placeholder="Phone" required />
+              <input type="email" class="contact-input" placeholder="Email" required />
+            </div>
+  
+            <div class="row">
+              <textarea name="message" class="contact-input textarea" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn1">Send</button>
+          </form>
+          <p id="form-response" style="display: none; color: green;">Thank you for your message. I will get back to you soon!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hireme" id="hireme">
+    <div class="container">
+      <h3 class="title">Let's talk about a project</h3>
+      <p class="text" id="hireme-text">
+        <!-- Placeholder text for hireme section -->
+        I am Harshal Tingre, a Mechanical Engineer with a Master's degree from Arizona State University and a Bachelor's degree from Savitribai Phule Pune University. Let's discuss how we can collaborate on your next project.
+      </p>
+      <a href="#contact" class="btn1">Hire me</a>
+    </div>
+  </section>
+
+</div>
+  
+  <!-- Modal Structure -->
+  <div id="portfolioModal" class="modal" style="z-index: 9;">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle">Project Title</h2>
+      <p id="modalDescription">Project Description</p>
+      <!-- <img id="modalImage" src="" alt="Project Image"> -->
+    </div>
+  </div>
+    
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-4">
+        <div class="grid-4-col footer-about">
+          <h3 class="title-sm">About</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            officiis quo officia quia?
+          </p>
+        </div>
+
+        <div class="grid-4-col footer-links">
+          <h3 class="title-sm">Links</h3>
+          <ul>
+             <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <!-- <li> -->
+              <a href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+ 
+        <div class="grid-4-col"></div>
+
+        <div class="grid-4-col footer-newstletter">
+          <h3 class="title-sm">Subscribe</h3>
+          <p class="text">
+            Lorem ipsum dolor, sit amet ipsum dolor sit amet.
+          </p>
+          <div class="footer-input-wrap">
+            <input type="email" class="footer-input" placeholder="Email" />
+            <a href="#" class="input-arrow">
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-footer">
+        <div class="copyright">
+          <p class="text">
+            Copyright&copy;2024 All rights reserved            
+          </p>
+        </div>
+
+        <div class="followme-wrap">
+          <div class="followme">
+            <h3>Follow me</h3>
+            <span class="footer-line"></span>
+            <div class="social-media">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="back-btn-wrap">
+            <a href="#" class="back-btn">
+              <i class="fas fa-chevron-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
